@@ -29,3 +29,13 @@
     margin: 100px;
 }
 
+/* form margins */
+.form-margins {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: inline-block;
+    margin: 100px;
+}
