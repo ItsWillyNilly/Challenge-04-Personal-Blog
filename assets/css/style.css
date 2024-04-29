@@ -1,0 +1,30 @@
+/* horizontal and vertical line(s) */
+.hl {
+    border: 2px solid black;
+}
+
+/* dark mode toggle, sets the body to white and black when the toggle function is called*/
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+/* styling for the dark mode toggle switch. When it is hovered, the mouse pointer will turn into a finger. */
+.darkmode {
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* aligns items on the top navbar to the right and also adds margins to the top and bottom */
+.nav-bar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: end;
+}
+

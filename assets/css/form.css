@@ -1,0 +1,31 @@
+/* verticle line splitting the content */
+.vl {
+    border-left: 2px solid black;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 50px;
+}
+
+/* circle greeter */
+.circle-gradient {
+    background:linear-gradient(to top, rgb(52, 36, 0), rgb(255, 206, 91));
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+
+    justify-content: center;
+    align-items: center;
+    
+    display: flex;
+  }
+
+.content-container {
+    display:flex;
+    margin: 100px;
+}
+
