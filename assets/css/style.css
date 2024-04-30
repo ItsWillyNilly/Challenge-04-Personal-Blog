@@ -13,6 +13,7 @@
 .darkmode {
     cursor: pointer;
     display: inline-block;
+    margin: 20px;
 }
 
 /* aligns items on the top navbar to the right and also adds margins to the top and bottom */
@@ -21,6 +22,7 @@
     margin-bottom: 10px;
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 
 /* dark mode toggle, sets the body to white and black when the toggle function is called*/
