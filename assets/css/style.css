@@ -1,12 +1,15 @@
-/* horizontal and vertical line(s) */
+/* horizontal line(s) */
 .hl {
     border: 2px solid black;
+    width: 100%;
 }
 
 /* dark mode toggle, sets the body to white and black when the toggle function is called*/
 body {
     background-color: white;
     font-family: sans-serif;
+   
+    height: 100%;
 }
 
 .dark-mode {
