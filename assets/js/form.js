@@ -12,7 +12,9 @@ submitButton.addEventListener('click', function (event) {
       title: titleInput.value.trim(),
       content: contentInput.value.trim(),
     };
-  
+    
 // stores the input into local storage
     localStorage.setItem('blogPost', JSON.stringify(blogPost));
+
+    window.location="blog.html";
   });
