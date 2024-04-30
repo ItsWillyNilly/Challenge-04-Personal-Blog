@@ -4,14 +4,6 @@
     width: 100%;
 }
 
-/* dark mode toggle, sets the body to white and black when the toggle function is called*/
-body {
-    background-color: white;
-    font-family: sans-serif;
-   
-    height: 100%;
-}
-
 .dark-mode {
     background-color: black;
     color: white;
@@ -31,3 +23,10 @@ body {
     justify-content: end;
 }
 
+/* dark mode toggle, sets the body to white and black when the toggle function is called*/
+body {
+    background-color: white;
+    font-family: sans-serif;
+   
+    height: 100%;
+}
