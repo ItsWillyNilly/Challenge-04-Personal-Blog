@@ -1,20 +1,26 @@
-// dark mode toggle function
-function darkMode() {
+let darkmode = localStorage.getItem('darkmode');
+let icon = document.getElementById("dark-mode-toggle");
 
-// initializes darkModeSwitcher and sets the value to the document body and toggles the 'dark-mode' CSS style found in style.css
-    let darkModeSwitch = document.body;
-    darkModeSwitch.classList.toggle("dark-mode");
+if(localStorage.getItem('darkmode' == 'enabled')) {
+    document.body.classList.add('dark-mode');
+}
 
-// initializes icon as "document.getElementById("dark-mode-toggle")". It looks for the element with the id of 'dark-mode-toggle'
-    let icon = document.getElementById("dark-mode-toggle");
+icon.addEventListener('click', function(event) {
+    document.body.classList.toggle('dark-mode');
 
-// then does a check to see if it has a class of 'dark-mode' and switches to light mode if it doesn't or dark mode if it does
-    if (darkModeSwitch.classList.contains('dark-mode')){
+    if (document.body.classList.contains('dark-mode')){
+        
         icon.innerHTML = '🌒';
+        localStorage.setItem('darkmode', 'enabled')
+    
+        console.log(darkmode, "Enabled");
     }
     else {
         icon.innerHTML = '🌕';
+        localStorage.setItem('darkmode', null);
+
+        console.log(darkmode, "Disabled");
     }
-}
+});
 
 
