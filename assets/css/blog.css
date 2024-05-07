@@ -12,3 +12,23 @@
     background-color: #5e5e5e;
     transition-duration: 0.8s;
 }
+
+.card {
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 24px;
+}
+
+.card-dark-mode {
+    border: 2px solid white;
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 24px;
+}
+
+.h6 {
+    align-content: bottom;
+}
